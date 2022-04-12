@@ -1,0 +1,149 @@
+body{
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vw;
+}
+
+header{
+    padding-top: 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25vw;
+    text-decoration:none;
+    margin-left: 3vw;
+}
+
+article{
+    width: 100%;
+}
+
+.header-logo{
+    width: 5vw;
+    height: 5vw;
+}
+
+.header-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacer{
+    height: 10px;
+}
+
+.solo{
+    width: 56vw;
+    height: 56vw/2;
+}
+
+.nextTo{
+    display: inline-block;
+    width: 28vw;
+    height: 14vw;
+}
+
+a.button{
+    max-width: 20vw;
+    border:0.1em solid #020101;
+    padding: .5vw 2vw .5vw 2vw;
+    text-decoration:none;
+    font-size: 1.5vw;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 100;
+    background-color: rgb(255, 255, 255);
+    color: #003a52;
+    transition: 0.3s;
+}
+a.button:hover{
+    max-width: 20vw;
+    border:0.1em solid #020101;
+    padding: .5vw 2vw .5vw 2vw;
+    text-decoration:none;
+    font-size: 1.4vw;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 100;
+    background-color: #006994;
+    color: #FFFFFF;
+}
+div{
+    justify-content: center;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25vw;
+    padding-left: 17.5vw;
+    padding-right: 17.5vw;
+}
+
+iframe{
+    padding-top: 1.5vw;
+    width: 40vw;
+    height: 20vw;
+}
+
+body{
+    background-color: #000000;
+    background-image: url("./media/siteBackground.png");
+    background-size: cover;
+}
+
+footer{
+    padding-top: 2vw;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2vw;
+    color: #36393d;
+}
+
+footer div{
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 9, 46);
+}
+
+footer div span{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+
+footer img{
+    width: 17vw;
+    height: 17vw;
+}
+
+html{
+    background-color: #000000;
+}
+.more-resources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
